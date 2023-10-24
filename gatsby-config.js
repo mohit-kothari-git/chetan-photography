@@ -11,10 +11,10 @@ module.exports = {
 
   plugins: [
     {
-      // resolve: `gatsby-source-prismic`,
-      // options: {
-      //   gatsby_repositoryName: process.env.PRISMIC_REPOSITORY_NAME,
-      //   gatsby_accessToken: process.env.PRISMIC_ACCESS_TOKEN,
+      resolve: `gatsby-source-prismic`,
+      options: {
+        gatsby_repositoryName: process.env.PRISMIC_REPOSITORY_NAME,
+        gatsby_accessToken: process.env.PRISMIC_ACCESS_TOKEN,
         schemas: {
           imagecollection: require('./src/schemas/imagecollection.json'),
           about: require('./src/schemas/about.json'),
