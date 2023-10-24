@@ -23,13 +23,13 @@ module.exports = {
         },
       },
     // },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`Playfair Display\:400`, `IBM Plex Sans\:400`],
-        display: 'swap',
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-fonts`,
+    //   options: {
+    //     fonts: [`Playfair Display\:400`, `IBM Plex Sans\:400`],
+    //     display: 'swap',
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
