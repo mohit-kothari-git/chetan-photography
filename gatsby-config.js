@@ -22,7 +22,7 @@ module.exports = {
           homepage: require('./src/schemas/homepage.json'),
         },
       },
-    // },
+    },
     // {
     //   resolve: `gatsby-plugin-google-fonts`,
     //   options: {
